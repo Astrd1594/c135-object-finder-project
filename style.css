@@ -1,0 +1,97 @@
+body{
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    background: rgb(215,236,255);
+    background: linear-gradient(0deg, rgba(215,236,255,1) 0%, rgba(215,236,255,1) 100%);
+    font-weight: lighter;
+}
+h4{
+    font-weight: lighter;
+}
+#topsection{
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgb(55,203,176);
+    background: linear-gradient(0deg, rgba(55,203,176,1) 0%, rgba(92,255,198,1) 100%);
+    width: 100% !important;
+    color: rgb(48, 57, 93);
+    cursor: Default;
+}
+#inputdiv{
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    background: rgb(210,22,99);
+    background: linear-gradient(0deg, rgba(210,22,99,1) 0%, rgba(244,39,126,1) 100%);
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+#inputdiv:hover{
+    box-shadow: 5px 5px 10px rgb(145, 190, 249);
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+input{
+    width: 285px;
+    height: 25px;
+    border: lightgrey solid 1px;
+    border-radius: 5px;
+    border: 2px lightblue solid;
+    font-weight: bolder !important;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+input:hover{
+    border: 2px solid rgb(255, 204, 0);
+    cursor: pointer;
+}
+button{
+    margin-top: 10px;
+    cursor: pointer;
+    background: rgb(199,63,0);
+    background: radial-gradient(circle, rgba(199,63,0,1) 0%, rgba(242,127,40,1) 100%);
+    transition: all 0.1s ease-in-out;
+    font-size: 30px;
+    width: 50px;
+    border-width: 0px;
+    border-radius: 150px;
+    height: 50px;
+    display: block;
+}
+button:hover{
+    transform: scale(0.9);
+}
+button:active{
+    transition: all 0.02s ease-in-out;
+    background: rgb(195,65,5);
+    background: radial-gradient(circle, rgba(195,65,5,1) 0%, rgba(228,125,46,1) 100%);
+    transform: scale(0.8);
+}
+#statusdiv{
+    background: rgb(33,36,185);
+    background: radial-gradient(circle, rgba(33,36,185,1) 0%, rgba(139,161,255,1) 100%);
+    border: 1px solid white;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: all 0.1s ease-in-out;
+}
+#status{
+    color: white;
+    cursor: default;
+}
+canvas{
+    border-radius: 10px;
+    margin-top: 300px;
+    border: 1px solid white;
+}
